@@ -31,10 +31,9 @@ public class Executar {
 			l[i].status();
 		}*/
 		
-		l[0].status();
-		System.out.println("Pretty boy perdeu uma luta");	
-		l[0].perderLuta();
-		l[0].status();
+		Luta UEC01 = new Luta();
+		UEC01.marcarLuta(l[0], l[1]);
+		UEC01.lutar();
 	}
 
 }

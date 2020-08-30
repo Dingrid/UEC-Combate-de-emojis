@@ -26,6 +26,9 @@ public class Lutador {
 	
 	//metodos
 	public void apresentar() {
+		System.out.println("------------------------");
+		System.out.println("LUTADOR");
+		System.out.println("------------------------");
 		System.out.println("Lutador: " + this.getNome());
 		System.out.println("Origem: " + this.getNacionalidade());
 		System.out.println(this.getIdade()+ " anos");
